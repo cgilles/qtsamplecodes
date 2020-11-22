@@ -21,7 +21,7 @@
 
 // Qt includes
 
-#include <QApplication>
+#include <QCoreApplication>
 #include <QProcess>
 #include <QByteArray>
 #include <QString>
@@ -38,7 +38,7 @@ int main(int argc, char** argv)
         return -1;
     }
 
-    QApplication app(argc, argv);
+    QCoreApplication app(argc, argv);
     QStringList args     = app.arguments().mid(1);
 
     // ---
