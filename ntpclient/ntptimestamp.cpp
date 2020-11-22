@@ -77,10 +77,9 @@ void NTPTimeStamp::init()
 
     m_ntpServers.clear();
 
-    // Standard Ntp time servers at IRFM
+    // Standard Ntp time servers
 
-    m_ntpServers.append("time.cea.fr");
-    m_ntpServers.append("time.intra.cea.fr");
+    m_ntpServers.append("fr.pool.ntp.org");
 
     // Ntp client
 
